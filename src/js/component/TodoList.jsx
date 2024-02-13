@@ -23,7 +23,7 @@ export const TodoList = () => {
                         onChange={(Event) => setTask(Event.target.value)}
                     />
                 </form>
-                <h2>LIsta de Tarea</h2>
+                <h2>Lista de Tarea</h2>
                 <div>
                     <ul className="list-group">
                         {list.map((item, id) => <li key={id} className="list-group-item d-flex justify-content-between hidden-icon" >
